@@ -1,0 +1,23 @@
+{
+  "name": "mdbtest1",
+  "version": "1.0.0",
+  "description": "rest api mongodb heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "api",
+    "mongo",
+    "heroku"
+  ],
+  "author": "JammerCoder",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.10.8",
+    "node-restful": "^0.2.6"
+  }
+}
