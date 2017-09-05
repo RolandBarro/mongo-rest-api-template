@@ -12,6 +12,10 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 //Routes
+app.get('/', function(req, res){
+	res.send('API main page');
+});
+
 app.use('/api', require('./routes/api'));
 
 app.listen(3000);
