@@ -9,6 +9,6 @@ Users.register(router,'/users');
 
 Employees = require('../models/employees');
 Employees.methods(['get', 'put', 'post', 'delete']);
-Employees.register(router,'/employees');
+Employees.register(router,'/employees'); 
 
 module.exports = router;

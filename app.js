@@ -3,7 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-var dbURI = 'mongodb://admin:Oct072006@ds123124.mlab.com:23124/payroll_app';
+var dbURI = 'mongodb://admin:password@ds123124.mlab.com:23124/payroll_app';
 mongoose.connect(dbURI,{});
 var db = mongoose.connection;
 
